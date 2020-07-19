@@ -1,0 +1,52 @@
+
+/* .view {
+    margin: 0 50%;
+    background-color: silver;
+}
+.keyType {
+    width: 200px;
+    margin: 0 50%;
+    padding: 5px 50px;
+    background-color: sandybrown;
+} */
+input {
+    border-radius: 40%;
+}
+.view input {
+    border-radius: 15%;
+    border: 3px solid;
+    width: 50%;
+    margin: 25px 15px;
+}
+.container {
+    width: 100%;
+}
+#idPress{
+    background-color: slateblue;
+    border: 2px solid;
+    margin: 0 10px;
+}
+#idSign{
+    background-color: rgb(240, 138, 44);
+    margin: 0 10px;
+    border: 2px solid;
+}
+#idRan{
+    background-color: rgb(14, 158, 139);
+    margin: 0 12px;
+    padding: 5px 2px;
+    border: 2px solid;
+}
+#formCalc {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgba(95, 95, 54, 0.609);
+    border: 4px solid;
+
+}
+#viewDisplay {
+    width: 600px;
+    margin-left: -50px;
+}

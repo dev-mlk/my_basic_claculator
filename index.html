@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/css/main.css">
+    <title>My Own Calculator</title>
+</head>
+
+<body>
+    <div class="container py-5" id="package">
+        <form name="myCalc" id="formCalc" class="px-2">
+            <div class="view px-5" id="viewDisplay">
+                <input type="text" name="display">
+            </div><br>
+            <div>
+                <div class="d-flex">
+                   <input type="button" name="sin" onclick="fnsin()" value="sin" id="idRan">
+                <input type="button" name="cos" onclick="fncos()" value="cos" id="idRan">
+                <input type="button" name="tan" onclick="fntan()" value="tan" id="idRan">
+                <input type="button" name="sqrt" onclick="fnsqrt()" value="^2'" id="idRan">
+                <input type="button" name="sqrtd" onclick="fnsqrtd()" value="sqrt" id="idRan">
+                </div> 
+                <br>
+                <div class="d-flex">
+                    <input type="button" name="btn7" onclick="myPress('7')" id="idPress" value=" 7 ">
+                    <input type="button" name="btn8" onclick="myPress('8')" id="idPress" value=" 8 ">
+                    <input type="button" name="btn9" onclick="myPress('9')" id="idPress" value=" 9 ">
+                    <input type="button" name="del" value=" D " onclick="clearB()" id="idSign">
+                    <input type="button" name="clr" value=" C " onclick="clearT()" id="idSign">
+                </div>
+               <br>
+               <div class="d-flex">
+                       <input type="button" name="btn4" onclick="myPress('4')" id="idPress" value=" 4 ">
+                <input type="button" name="btn5" onclick="myPress('5')" id="idPress" value=" 5 ">
+                <input type="button" name="btn6" onclick="myPress('6')" id="idPress" value=" 6 ">
+                <input type="button" name="sub" value=" - " onclick="myPress('-')" id="idSign">
+                <input type="button" name="add" value=" + " onclick="myPress('+')" id="idSign">
+               </div>
+            <br>
+               <div class="d-flex">
+                <input type="button" name="btn4" onclick="myPress('1')" id="idPress" value=" 1 ">
+                <input type="button" name="btn5" onclick="myPress('2')" id="idPress" value=" 2 ">
+                <input type="button" name="btn6" onclick="myPress('3')" id="idPress" value=" 3 ">
+                <input type="button" name="mul" value=" * " onclick="myPress('*')" id="idSign">
+                <input type="button" name="add" value=" / " onclick="myPress('/')" id="idSign">
+               </div><br>
+               <div class="d-flex">
+                     <input type="button" name="btn4" onclick="myPress('0')" id="idPress" value=" 0 ">
+                <input type="button" name="btn5" onclick="myPress('.')" id="idPress" value=" . ">
+                <input type="button" name="2O" onclick="myPress('00')" id="idPress" value="00">
+                <input type="button" name="sub" onclick="myPress('-')" id="idSign" value="-/+">
+                <input type="button" name="equal" onclick="equalT()" id="idSign" value=" = ">
+               </div>
+              
+            </div>
+        </form>
+    </div>
+    <script src="./styles/script/main.js"></script>
+</body>
+
+</html>
